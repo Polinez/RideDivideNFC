@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/szarytlo"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:elevation="10dp"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:cornerRadius="30dp"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnRetrieveData"
+        android:layout_width="226dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="96dp"
+        android:background="@color/szarytlo"
+        android:backgroundTint="@color/szary"
+        android:gravity="center"
+        android:text="Retrieve Data"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OsDlug" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/uzytkownik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Witaj,"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/dlug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Osoby które musza oddac ci pieniadze to:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/OsDlug"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dlug" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

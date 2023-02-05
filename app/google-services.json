@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "871899217829",
+    "project_id": "nfc-dla-kierowcy",
+    "storage_bucket": "nfc-dla-kierowcy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871899217829:android:728af8233a40d49a04b24c",
+        "android_client_info": {
+          "package_name": "com.example.nfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871899217829-0bjv7526ojpdcjfj3iagnavfq8e00plj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyopWeGGJEOFN5Gpf4LkmaoynzhtT2RkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871899217829-0bjv7526ojpdcjfj3iagnavfq8e00plj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871899217829:android:c00985f84e36444b04b24c",
+        "android_client_info": {
+          "package_name": "com.zg.nfcdlakierowcy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871899217829-0bjv7526ojpdcjfj3iagnavfq8e00plj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyopWeGGJEOFN5Gpf4LkmaoynzhtT2RkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871899217829-0bjv7526ojpdcjfj3iagnavfq8e00plj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
